@@ -22,8 +22,8 @@ Before running the scripts, ensure you have the following installed and configur
 
 *   `start-trickcal.bat`: The main entry point. Starts the emulator and then triggers the PowerShell logic.
 *   `auto-start-trickcal.ps1`: The logic core. Handles ADB connections and waits for the emulator to be "Ready" before launching the game.
-*   `emulatordevice.lnk`: You can get this from Mumuplayer by right clicking kebab menu(three-dot) and clicking The Create Shortcut Button
-<img width="990" height="576" alt="Screenshot 2026-04-19 212941" src="https://github.com/user-attachments/assets/a90987e0-e63d-40b8-ad95-bad33bf4ec34" />
+*   `emulatordevice.lnk`: The Shortcut for your emulated device.
+
 
 
 ---
@@ -35,6 +35,8 @@ Ensure your local file paths match the script defaults. If your ADB or MuMu Play
 
 *   **In `start-trickcal.bat`**: Update the `start` command path if your MuMu Player installation directory is different.
 *   **In `auto-start-trickcal.ps1`**: Update the `$ADB` variable at the top of the file.
+*   **emulatordevice.lnk**: You can get this from Mumuplayer by right clicking kebab menu(three-dot) and clicking The Create Shortcut Button
+<img width="990" height="576" alt="Screenshot 2026-04-19 212941" src="https://github.com/user-attachments/assets/a90987e0-e63d-40b8-ad95-bad33bf4ec34" />
 
 ### 2. How to Run
 Simply double-click **`start-trickcal.bat`**.
